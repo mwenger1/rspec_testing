@@ -17,4 +17,9 @@ describe Bowling, "#score" do
     sum = Bowling.new.sum(3,5)
     expect(sum).to eq(8)
   end
+
+  it "multiplies numbers together" do
+    product = Bowling.new.multiply(3,5)
+    expect(product).to eq(15)
+  end
 end

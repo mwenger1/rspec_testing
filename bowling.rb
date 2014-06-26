@@ -17,4 +17,8 @@ class Bowling
   def sum (x,y)
     x + y
   end
+
+  def multiply (x,y)
+    x * y
+  end
 end
