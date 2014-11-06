@@ -3,6 +3,8 @@ class Bowling
 		@player = player
 	end
 
+
+
   def hit(pins)
   end
 
@@ -21,4 +23,17 @@ class Bowling
   def multiply (x,y)
     x * y
   end
+end
+
+class Person
+  def initialize firstname, lastname
+    @firstname = firstname
+    @lastname = lastname
+  end
+
+
+  def name
+    [@firstname, @lastname].join " "
+  end
+
 end
